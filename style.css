@@ -208,11 +208,8 @@ h2,h3{
     padding-left: 25px;
 }
 .project ul{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
 }
 .project ul li{
     list-style-type:decimal;
