@@ -87,8 +87,8 @@ h2,h3{
     padding-right: 5vh;
 }
 .box{
-    height: 162px;
-    width: 162px;
+    height: 150px;
+    width: 150px;
     position: relative;
     transform: rotate(-90deg);
     display: flex;
@@ -114,8 +114,9 @@ h2,h3{
     stroke-width: 13px;
     stroke-linecap: round;
     transform: translate(10px,10px);
-    stroke-dashoffset: 440;
-    stroke-dasharray: 440;
+    stroke-dashoffset: 377;
+    stroke-dasharray: 377;
+    stroke: #f10606;
 }
 
 .box svg circle:nth-child(1){
@@ -125,28 +126,28 @@ h2,h3{
 }
 .c1 svg circle:nth-child(2){
 
-    stroke-dashoffset: calc(440 - (440 * 90)/100);
+    stroke-dashoffset: calc(377 - (377 * 90)/100);
     stroke: #03a9f4;
 }
 
 .c2 svg circle:nth-child(2){
 
-    stroke-dashoffset: calc(440 - (440 * 85)/100);
+    stroke-dashoffset: calc(377 - (377 * 85)/100);
     stroke: #03a9f4;
 }
 .c3 svg circle:nth-child(2){
 
-    stroke-dashoffset: calc(440 - (440 * 0)/100);
+    stroke-dashoffset: calc(377 - (377 * 0)/100);
     stroke: #03a9f4;
 }
 .c4 svg circle:nth-child(2){
 
-    stroke-dashoffset: calc(440 - (440 * 75)/100);
+    stroke-dashoffset: calc(377 - (377 * 75)/100);
     stroke: #03a9f4;
 }
 .c5 svg circle:nth-child(2){
 
-    stroke-dashoffset: calc(440 - (440 * 45)/100);
+    stroke-dashoffset: calc(377 - (377 * 45)/100);
     stroke: #03a9f4;
 }
 .tittle{
@@ -158,26 +159,26 @@ h2,h3{
 }
 .html{
     font-size: 26px;
-    left:125px;
-    top: 62px;
+    left:100px;
+    top: 50px;
 }
 .css{
     font-size: 26px;
-    left: 137px;
-    top:60px;
+    left: 115px;
+    top:45px;
 }
 .javascript{
     font-size: 23px;
-    left: 112px;
+    left: 90px;
 }
 .creative{
     font-size: 23px;
-    left: 120px;
+    left: 100px;
 }
 .cpp{
     font-size: 25px;
-    left: 138px;
-    top: 60px;
+    left: 115px;
+    top: 50px;
 }
 .end{
     width: 100%;
