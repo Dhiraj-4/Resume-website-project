@@ -16,6 +16,7 @@ hr{
     height: 3px;
 }
 body{
+    margin: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,9 +37,9 @@ img{
 .left{
     padding-top: 5vh;
     background-color: #212529;
-    /* height: 200px; */
     border: 3px solid whitesmoke;
-    width: 40vw;
+    width: max(400px,40vw);
+    padding-bottom: 10px;
 }
 .tittle_name{
     text-align: center;
@@ -73,8 +74,7 @@ h2,h3{
 /* mid */
 .mid{
     background-color: #212529;
-    height: 100vh;
-    max-width: 40vw;
+    width: max(400px,40vw);
     padding-top: 3vh;
     border: 3px solid whitesmoke;
 }
@@ -203,16 +203,15 @@ h2,h3{
 .right{
     margin-top: 5px;
     background-color: #212529;
-    height: 100vh;
-    max-width: 40vw;
+    width: max(400px,40vw);
     border: 3px solid whitesmoke ;
 }
 .project{
     padding-left: 25px;
 }
 .project ul{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
 }
 .project ul li{
     list-style-type:decimal;
@@ -242,4 +241,3 @@ h2,h3{
     font-size: 20px;
     font-weight: 600px;
 }
-
