@@ -38,7 +38,7 @@ img{
     padding-top: 5vh;
     background-color: #212529;
     border: 3px solid whitesmoke;
-    width: max(400px,40vw);
+    width: max(320px,40vw);
     padding-bottom: 10px;
 }
 .tittle_name{
@@ -74,7 +74,7 @@ h2,h3{
 /* mid */
 .mid{
     background-color: #212529;
-    width: max(400px,40vw);
+    width: max(320px,40vw);
     padding-top: 3vh;
     border: 3px solid whitesmoke;
 }
@@ -203,7 +203,7 @@ h2,h3{
 .right{
     margin-top: 5px;
     background-color: #212529;
-    width: max(400px,40vw);
+    width: max(320px,40vw);
     border: 3px solid whitesmoke ;
 }
 .project{
